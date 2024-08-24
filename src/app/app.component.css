@@ -1,0 +1,35 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #cdf0ff8a;
+
+}
+
+.container{
+    margin-top: 7.5%;
+    padding-left: 1px ;
+    padding-right: 1px ;
+    
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: end;
+    /* margin: auto; */
+
+}
+
+.card-img{
+    text-align: center;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-bottom: auto ;
+    padding-top: 50px ;
+}
+.hampozo{
+    box-shadow: 0px 0px 6px 0px gray;
+    cursor: pointer;
+}

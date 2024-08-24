@@ -1,0 +1,29 @@
+<app-navbar></app-navbar>
+
+<div class="container pt-3 pb-3">
+  <div class="row g-4">
+   @for (p of productData ; track $index) {
+    <div class="col-md-4">
+      <div class="card h-100  hampozo">
+        <img [src]="p.image" class="card-img w-50" alt="">
+        <div class="card-body">
+          <h3 class="h4 text-center">
+            Title : {{p.title}}
+          </h3>
+          <p class="fw-bolder text-center">
+            Desciption: {{p.description.split(' ' ,  7).join(' ')}} 
+          </p>
+          <span class="fw-bold"> 
+            Category : {{p.category}}
+          </span>
+          <br>
+          <span class="fw-bold">
+          Rate : {{p.rating.rate}} for 5
+          </span>
+        </div>
+      </div>
+    </div>
+   }
+  </div>
+</div>
+<!-- <router-outlet></router-outlet> -->

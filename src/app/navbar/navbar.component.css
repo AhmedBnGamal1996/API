@@ -1,0 +1,8 @@
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+
+.bg-b{
+    background-color: rgb(44, 130, 243);
+} 

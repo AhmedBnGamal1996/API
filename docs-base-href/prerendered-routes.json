@@ -1,0 +1,10 @@
+{
+  "routes": [
+    "/electronics",
+    "/home",
+    "/jewelery",
+    "/men clothes",
+    "/navbar",
+    "/women clothes"
+  ]
+}
